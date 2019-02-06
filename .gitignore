@@ -1,0 +1,93 @@
+# Exclude backups, archives and logs
+*.tar
+*.gz
+*.sql
+*.log
+*.tar.gz
+*.zip
+*.rar
+*.tgz
+
+# Exclude OS trash
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Exclude Sitemap and robots.txt
+/sitemap.xml
+/robots.txt
+
+# Exclude IDEs directories
+.idea
+/nbproject/
+
+# Exclude Magento var dir
+/var/cache
+/var/session
+/var/log
+/var/locks
+/var/export
+/var/import
+/var/importexport
+/var/report
+/var/tmp
+/var/resource_config.json
+/var/data-response.txt
+/var/data.txt
+/var/package
+
+#Exclude Magmi
+/magmi/
+
+#Exclude Magento media directory
+/media/
+!/media/.htaccess
+!/media/xmlconnect
+!/media/wysiwyg
+!/media/downloadable
+!/media/dhl
+!/media/customer
+
+#Exclude webstat
+/webstat/
+/index.html
+
+#Exclude other Magento dirs
+/pkginfo/
+/includes/
+
+#Exclude configs
+/app/etc/local.xml
+
+#Downloader
+/downloader/config.*
+/downloader/.cache
+
+#Other
+/magicento.phpstorm.meta.php
+.tmp_*
+
+#Skin dynamic CSS config
+/skin/frontend/ultimo/default/css/_config/
+
+#config
+
+#admin panel
+/app/code/community/HM/
+/app/code/community/Magneto/Debug/
+/app/code/local/MDN/
+/app/design/adminhtml/default/default/layout/ExtensionConflict.xml
+/app/design/adminhtml/default/default/template/ExtensionConflict/
+/app/design/frontend/base/default/template/debug/
+/app/design/frontend/base/default/template/developertoolbar/
+/app/etc/modules/HM_DeveloperToolbar.xml
+/app/etc/modules/MDN_ExtensionConflict.xml
+/app/etc/modules/Magneto_Debug.xml
+/skin/frontend/base/default/debug/
+
+# Additional
+test.php
