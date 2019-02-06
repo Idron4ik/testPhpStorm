@@ -6,7 +6,6 @@
 *.tar.gz
 *.zip
 *.rar
-*.tgz
 
 # Exclude OS trash
 .DS_Store
@@ -61,7 +60,6 @@ Thumbs.db
 /includes/
 
 #Exclude configs
-/app/etc/local.xml
 
 #Downloader
 /downloader/config.*
@@ -75,6 +73,7 @@ Thumbs.db
 /skin/frontend/ultimo/default/css/_config/
 
 #config
+/app/etc/local.xml
 
 #admin panel
 /app/code/community/HM/
