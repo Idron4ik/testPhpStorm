@@ -1,0 +1,108 @@
+.wrapper {
+  /* background: #cb60b3; */
+  /* background: linear-gradient(45deg, #cb60b3 0%,#c146a1 50%,#a80077 51%,#db36a4 100%); */
+  background: radial-gradient(ellipse at center, rgba(246,246,246,1) 0%, rgba(158,158,158,1) 100%);
+
+}
+.js-fade-out span,
+.js-fade-in span{
+  transition: all 1000ms;
+}
+.js-fade-out:hover,
+.js-fade-in:hover{
+  cursor: pointer;
+}
+.js-fade-out span{
+  opacity: 0;
+}
+.js-fade-in span{
+  opacity: 1;
+}
+
+.col1-layout .col-main .widget.widget-new-products .products-grid--max-5-col-widget > li{
+  transition: all 300ms;
+  background: white;
+  padding: 15px;
+}
+.col1-layout .col-main .widget.widget-new-products .products-grid--max-5-col-widget .product-image{
+  width: 100%;
+  margin-bottom: 15px;
+  margin-left: 0%;
+  border: none;
+}
+.col1-layout .col-main .widget.widget-new-products .products-grid--max-5-col-widget > li:hover{
+  transform: scale(1.2);
+}
+.col1-layout .col-main .widget.widget-new-products .products-grid--max-5-col-widget > li .no-touch .product-image:hover{
+  border: none;
+}
+
+.widget-viewed .products-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+.widget-viewed .products-grid > li{
+  max-width: 320px;
+  margin: 0;
+  width: 100%!important;
+  margin-right: 40px!important;
+  background-color: white;
+  padding: 20px;
+}
+.widget-viewed .products-grid li .product-info{
+  /* padding-bottom: 150px!important; */
+}
+.scrollbar {
+  margin-top: 40px;
+  height: 3px;
+  background: transparent;
+  line-height: 0;
+}
+.scrollbar .handle {
+  width: 100px;
+  height: 100%;
+  background: #377CFD;
+  cursor: pointer;
+}
+.scrollbar .handle .mousearea {
+  position: absolute;
+  top: -9px;
+  left: 0;
+  width: 100%;
+  height: 20px;
+
+}
+.block-layered-nav .block-content > dl > dt{
+  margin-top: 10px;
+}
+.block-layered-nav .block-content > dl > dt:hover{
+  cursor: pointer;
+}
+.block-layered-nav .block-content > dl > dt.no-active{
+  pointer-events: none;
+}
+.block-layered-nav .block-content > dl > dd{
+  transition: padding-top 300ms, padding-bottom 300ms, height 300ms;
+  transition-timing-function: linear;
+  border: none;
+}
+.block-layered-nav .block-content > dl > dd.slide-toggle{
+  height: 0;
+  padding: 0px;
+  overflow: hidden;
+  transition: padding-top 300ms, padding-bottom 300ms, height 300ms;
+}
+.img-block{
+  width: 100%;
+  height: 160px;
+  background-color: blue;
+  overflow: hidden;
+}
+.responsive-img{
+  max-width: 100%;
+  height: auto;
+}
+.product-img-box .product-image {
+
+}
+
