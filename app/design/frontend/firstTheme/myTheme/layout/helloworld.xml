@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout version="0.1.0">
+    <helloworld_index_index>
+        <reference name="content">
+            <remove name="custom-static-block"/>
+            <block type="helloworld/helloworld" name="helloworld_block" template="helloworld/helloworld-shablon.phtml" />
+        </reference>
+    </helloworld_index_index>
+</layout>

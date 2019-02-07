@@ -40,7 +40,7 @@
             <action method="setTemplate">
                 <!--<template>page/1column.phtml</template>-->
                 <!--<template>page/2columns-right.phtml</template>-->
-                <template>page/3columns.phtml</template>
+                <template>page/2columns-right.phtml</template>
             </action>
         </reference>
 
@@ -48,14 +48,15 @@
             <!--<remove name="right.reports.product.viewed"/>-->
 
             <block type="reports/product_viewed" before="right.permanent.callout" name="right.reports.product.viewed" template="reports/product_viewed.phtml" />
-            <block type="cms/block" name="cms_menu" after="-">
+                        <block type="cms/block" name="cms_menu" after="-">
                 <action method="setBlockId"><block_id>cms_menu</block_id></action>
             </block>
         </reference>
 
         <reference name="right">
-            <!--<remove name="right.reports.product.viewed"/>-->
-            <action method="unsetChild"><name>right.reports.product.viewed</name></action>
+            <remove name="right.reports.product.viewed"/>
+            <!--<action method="unsetChild"><name>right.reports.product.viewed</name></action>-->
+
             <block type="cms/block" name="cms_menu" after="-">
                 <action method="setBlockId"><block_id>cms_menu</block_id></action>
             </block>
@@ -64,6 +65,9 @@
         <!--<remove name="cms_menu"/>-->
 
     </catalogsearch_result_index>
+
+
+
 
 
 </layout>
